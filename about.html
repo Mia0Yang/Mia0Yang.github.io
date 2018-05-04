@@ -1,0 +1,33 @@
+---
+title: About
+layout: default
+---
+
+{% include header.html %}
+
+<div class="g-banner about-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.about-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
+    <h2>About</h2>
+</div>
+
+<main class="about-content">
+
+    <ul class="about-list">
+        <li>
+            <span class="about-name" >何壁承</span>
+            <span class="about-info" >四川师范大学</span>
+            <span class="about-info" >正在学python</span>
+            <span class="about-info" >邮箱:heb1c@live.com</span>
+        </li>
+        
+        <li>
+            <h3><span class="about-name" >友情链接</span></h3>
+
+            <div class="about-link">
+                <a class="link" href="https://acm.sicnu.edu.cn" >sicnu oj</a>
+            </div>
+
+        </li>
+    </ul>
+</main>
+    
+{% include footer.html %}
