@@ -68,7 +68,7 @@ a {
 	margin-left: 2%;
 	width: 60px;
 	height: 26px;
-	background: url(../icons/logo.svg) no-repeat center;
+	background: url(favicon.ico) no-repeat center;
 	background-size: 100% 100%;
 	opacity: .8;
 	transition: all .2s
@@ -551,7 +551,7 @@ a {
 	max-height: 230px;
 	background-color: #fff;
 	border-radius: 0 0 4px 4px;
-	overflow: scroll;
+	/* overflow: scroll; */
 	z-index: 0
 }
 
@@ -850,7 +850,7 @@ a {
 
 .markdown-body .highlight {
 	margin: 0 0 16px;
-	overflow: scroll
+	/* overflow: scroll */
 }
 
 .markdown-body img {
