@@ -5,7 +5,7 @@ subtitle: 'Error与Exception'
 date: 2018-05-05
 author: Mia0Yang
 cover: '/screenshot/Exception-Theme-1.png'
-tags: Mia0Yang
+tags: JAVA
 ---
 
 > 关于catch块中Exception与Error类型捕获的不同
@@ -19,10 +19,9 @@ tags: Mia0Yang
 ### try...catch块捕获异常
 
 使用try-catch块捕获异常，分为三种情况：
-
-<img src="/screenshot/Exception-Task2-01.png" width=500 height=256 />
-<img src="/screenshot/Exception-Task2-02.png" width=500 height=256 />
-<img src="/screenshot/Exception-Task2-03.png" width=500 height=256 />
+<img src="/screenshot/Exception-Task2-01.png" width="500" height="256" />
+<img src="/screenshot/Exception-Task2-02.png" width="500" height="256" />
+<img src="/screenshot/Exception-Task2-03.png" width="500" height="256" />
 
 在这个程序中为了以数组溢出的方式捕获异常，我用了一个死循环来制造错误，想输出内存情况，但是最后得到的是系统的异常。
 
@@ -87,7 +86,7 @@ public class TestArrayList {
 这时候突然想起了try...catch块的异常并不是只有Exception一种。异常中Throwable是Exception和Error类的父类.其中Error代表仅靠程序本身无法恢复的严重错误 ，而Exception代表由Java应用程序抛出和处理的非严重错误 。本题中的OutOfMemoryError并不属于Exception，导致结果不同。
 
 
-<img src="/screenshot/Exception-Task2-04.png" width=500 height=256 />
+<img src="/screenshot/Exception-Task2-04.png" width="500" height="256" />
 
 
 ### JAVA常见异常类型
@@ -123,8 +122,4 @@ public class TestArrayList {
 * 若写一个检查性异常类，需要继承 Exception 类。
 * 若写一个运行时异常类，需要继承 RuntimeException 类。
 
-
-
-### Video Test
-
-<img src="/screenshot/Exception-Theme-2.png"></iframe>
+<img src="/screenshot/Exception-Theme-2.png">
