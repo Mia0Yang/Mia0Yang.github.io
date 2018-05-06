@@ -4,7 +4,7 @@ title: 'Linux 防火墙配置（firewalld）'
 subtitle: 'Firewalld的基本操作'
 date: 2018-05-06
 author: Mia0Yang
-cover: '/assets/img/Linux-Firewalld-01.png'
+cover: '/screenshot/Linux-Firewalld.png'
 tags: Linux
 ---
 
