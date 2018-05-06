@@ -155,7 +155,7 @@ $ firewall-cmd --query-panic
 # firewall-cmd --permanent --zone=<ZONE> --add-richrule='rule family=ipv4 source address=192.168.122.0/24 mas querade'
 ```
 
-<img src = "/assets/img/Linux-Firewalld.png">
+<img src = "/assets/img/Linux-Firewalld-02.png">
 
 
 
